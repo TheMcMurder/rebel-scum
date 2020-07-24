@@ -54,12 +54,14 @@
   	--black: #000000;
   	--white: #FFFFFF;
 		--gray: #64696C;
+		--yellow: #FFE300;
 		
 		--green-rgb: 85,101,103;
   	--red-rgb: 188, 30, 34;
   	--blue-rgb: 57,74,89;
   	--black-rgb: 0, 0, 0;
   	--white-rgb: 255, 255, 255;
-  	--grey-rgb: 100,105,108;
+		--grey-rgb: 100,105,108;
+		--yellow-rgb: 255,227,0;
 	}
 </style>

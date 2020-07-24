@@ -8,6 +8,7 @@ module.exports = {
       black: 'var(--black)',
       white: 'var(--white)',
       gray: 'var(--gray)',
+      yellow: 'var(--yellow)'
     },
     fontFamily: {
       body: ["Saira", "Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
