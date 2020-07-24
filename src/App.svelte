@@ -1,30 +1,35 @@
 <script>
-	export let name;
+	import ImperialHeader from './imperial-header.svelte'
+	import ImperialBorder from './imperial-border.svelte';
 </script>
 
+<!-- <main class='mx-auto mt-0 mb-12 flex max-w-5xl'> -->
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<ImperialBorder withBlock={true} />
+	<ImperialHeader type='h1'>
+		Imperial Criminal Database
+	</ImperialHeader>
+	<p>
+		Hello there
+	</p>
 </main>
 
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
+<style global>
+  @tailwind base;
+  @tailwind components;
+	@tailwind utilities;
+	
+	body {
+		@apply text-white;
+		@apply bg-black;
+		@apply font-body;
+		@apply flex;
+		@apply max-w-5xl;
+		@apply justify-between;
+		@apply flex-col;
+		@apply mx-auto;
+		@apply mt-0;
+		@apply mb-12;
+  	/* font-family: "Saira", "Helvetica Neue", Helvetica, Arial, sans-serif; */
 	}
 </style>
