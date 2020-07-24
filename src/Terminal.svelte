@@ -7,7 +7,9 @@
 
 <div class='terminal border-blue border-4 rounded flex-1 m-8 overflow-y-auto'>
   {#await promise}
-    <Loader />
+    <div class='w-full h-full flex justify-center'>
+      <Loader />
+    </div>
   {:then criminals}
     <ul class='w-full flex flex-col'>
     {#each criminals as {id, name}}

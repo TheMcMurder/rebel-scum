@@ -12,7 +12,6 @@
     @apply text-white;
     @apply fill-current;
     @apply px-4;
-    @apply mt-12;
   }
 
   .loader div{
