@@ -4,6 +4,6 @@ export function getWarCriminals () {
     setTimeout(() => {
       const rebels = people.filter(p => p.affiliation === 'Rebellion')
       resolve(rebels)
-    }, 0)
+    }, 2500)
   })
 }

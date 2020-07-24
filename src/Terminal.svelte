@@ -1,17 +1,19 @@
 <script>
   import { getWarCriminals } from './database/database'
-import { identity } from 'svelte/internal'
+  import Loader from './common/Loader.svelte'
   let promise = getWarCriminals()
 
 </script>
 
 <div class='terminal border-blue border-4 rounded flex-1 m-8 overflow-y-auto'>
   {#await promise}
-    <span>Loading...</span>
+    <Loader />
   {:then criminals}
     <ul class='w-full flex flex-col'>
     {#each criminals as {id, name}}
-      <li class='war-criminal flex-1 m-2 text-white text-4xl'>{name}</li>
+      <li class='war-criminal flex-1 m-2 text-white text-4xl'>
+        {name}
+      </li>
     {/each}
     </ul>
   {/await}
