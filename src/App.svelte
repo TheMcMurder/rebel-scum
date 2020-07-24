@@ -1,17 +1,15 @@
 <script>
 	import ImperialHeader from './imperial-header.svelte'
 	import ImperialBorder from './imperial-border.svelte';
+	import Terminal from './Terminal.svelte';
 </script>
 
-<!-- <main class='mx-auto mt-0 mb-12 flex max-w-5xl'> -->
-<main>
+<main class='flex flex-col h-full'>
 	<ImperialBorder withBlock={true} />
 	<ImperialHeader type='h1'>
 		Imperial Criminal Database
 	</ImperialHeader>
-	<p>
-		Hello there
-	</p>
+	<Terminal></Terminal>
 </main>
 
 <style global>
@@ -20,6 +18,7 @@
 	@tailwind utilities;
 	
 	body {
+		@apply h-screen;
 		@apply text-white;
 		@apply bg-black;
 		@apply font-body;
@@ -29,7 +28,23 @@
 		@apply flex-col;
 		@apply mx-auto;
 		@apply mt-0;
-		@apply mb-12;
+		@apply pb-12;
   	/* font-family: "Saira", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+	}
+
+	:root {
+		--green: #556567;
+  	--red: #BC1E22;
+  	--blue: #394A59;
+  	--black: #000000;
+  	--white: #FFFFFF;
+		--gray: #64696C;
+		
+		--green-rgb: 85,101,103;
+  	--red-rgb: 188, 30, 34;
+  	--blue-rgb: 57,74,89;
+  	--black-rgb: 0, 0, 0;
+  	--white-rgb: 255, 255, 255;
+  	--grey-rgb: 100,105,108;
 	}
 </style>

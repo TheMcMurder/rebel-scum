@@ -14,10 +14,10 @@
 <style>
   h1 {
     @apply font-mono;
-    text-shadow: 0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5);
+    text-shadow: 0 0 .625em var(--white),0 0 1.5625em var(--white),-.0625em 0 .125em rgba(var(--black-rgb),0.5);
   }
   h2 {
     @apply font-mono;
-    text-shadow: 0 0 .625em #BC1E22,0 0 1.5625em #BC1E22,-.0625em 0 .125em rgba(0,0,0,0.5)
+    text-shadow: 0 0 .625em var(--red),0 0 1.5625em var(--red),-.0625em 0 .125em rgba(var(--black-rgb),0.5)
   }
 </style>

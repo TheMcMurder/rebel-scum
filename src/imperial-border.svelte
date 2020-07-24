@@ -10,7 +10,7 @@
 
 <style>
   .imperial-border {
-    box-shadow: 0 0 .625em #fff,0 0 1.5625em #fff,-.0625em 0 .125em rgba(0,0,0,0.5)
+    box-shadow: 0 0 .625em var(--white),0 0 1.5625em var(--white),-.0625em 0 .125em rgba(var(--black-rgb), 0.5)
   }
 
   .before::before {
