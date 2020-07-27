@@ -1,6 +1,6 @@
 export const people = [
   {
-    id: 1,
+    id: "1",
     name: "Luke Skywalker",
     affiliation: 'Rebellion',
     gender: "male",
@@ -13,7 +13,7 @@ export const people = [
     birth_year: "19BBY"
   },
   {
-    id: 2,
+    id: "2",
     name: "C-3PO",
     affiliation: 'Rebellion',
     gender: "n/a",
@@ -26,7 +26,7 @@ export const people = [
     birth_year: "112BBY"
   },
   {
-    id: 3,
+    id: "3",
     name: "R2-D2",
     affiliation: 'Rebellion',
     gender: "n/a",
@@ -39,7 +39,7 @@ export const people = [
     birth_year: "33BBY"
   },
   {
-    id: 4,
+    id: "4",
     name: "Darth Vader",
     affiliation: "Galactic Empire",
     gender: "male",
@@ -52,7 +52,7 @@ export const people = [
     birth_year: "41.9BBY"
   },
   {
-    id: 5,
+    id: "5",
     name: "Leia Organa",
     affiliation: 'Rebellion',
     gender: "female",
@@ -65,7 +65,7 @@ export const people = [
     birth_year: "19BBY"
   },
   {
-    id: 6,
+    id: "6",
     name: "Owen Lars",
     affiliation: 'none',
     gender: "male",
@@ -78,7 +78,7 @@ export const people = [
     birth_year: "52BBY"
   },
   {
-    id: 7,
+    id: "7",
     name: "Beru Whitesun lars",
     affiliation: 'none',
     gender: "female",
@@ -91,7 +91,7 @@ export const people = [
     birth_year: "47BBY"
   },
   {
-    id: 8,
+    id: "8",
     name: "R5-D4",
     affiliation: "none",
     gender: "n/a",
@@ -104,7 +104,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 9,
+    id: "9",
     name: "Biggs Darklighter",
     affiliation: 'Rebellion',
     gender: "male",
@@ -117,9 +117,9 @@ export const people = [
     birth_year: "24BBY"
   },
   {
-    id: 10,
+    id: "10",
     name: "Obi-Wan Kenobi",
-    affiliation: 'Rebellion',
+    affiliation: 'Jedi',
     gender: "male",
     skin_color: "fair",
     hair_color: "auburn, white",
@@ -130,7 +130,7 @@ export const people = [
     birth_year: "57BBY"
   },
   {
-    id: 11,
+    id: "11",
     name: "Anakin Skywalker",
     affiliation: 'Jedi',
     gender: "male",
@@ -143,7 +143,7 @@ export const people = [
     birth_year: "41.9BBY"
   },
   {
-    id: 12,
+    id: "12",
     name: "Wilhuff Tarkin",
     affiliation: 'Galactic Empire',
     gender: "male",
@@ -156,7 +156,7 @@ export const people = [
     birth_year: "64BBY"
   },
   {
-    id: 13,
+    id: "13",
     name: "Chewbacca",
     affiliation: "Rebellion",
     gender: "male",
@@ -169,7 +169,7 @@ export const people = [
     birth_year: "200BBY"
   },
   {
-    id: 14,
+    id: "14",
     name: "Han Solo",
     affiliation: "Rebellion",
     gender: "male",
@@ -182,7 +182,7 @@ export const people = [
     birth_year: "29BBY"
   },
   {
-    id: 15,
+    id: "15",
     name: "Greedo",
     affiliation: 'Bounty Hunters Guild',
     gender: "male",
@@ -195,7 +195,7 @@ export const people = [
     birth_year: "44BBY"
   },
   {
-    id: 16,
+    id: "16",
     name: "Jabba Desilijic Tiure",
     affiliation: 'Hutt Syndicate',
     gender: "hermaphrodite",
@@ -208,7 +208,7 @@ export const people = [
     birth_year: "600BBY"
   },
   {
-    id: 18,
+    id: "18",
     name: "Wedge Antilles",
     affiliation: "Rebellion",
     gender: "male",
@@ -221,7 +221,7 @@ export const people = [
     birth_year: "21BBY"
   },
   {
-    id: 19,
+    id: "19",
     name: "Jek Tono Porkins",
     affiliation: "Rebellion",
     gender: "male",
@@ -234,7 +234,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 20,
+    id: "20",
     name: "Yoda",
     affiliation: "Jedi",
     gender: "male",
@@ -247,7 +247,7 @@ export const people = [
     birth_year: "896BBY"
   },
   {
-    id: 21,
+    id: "21",
     name: "Palpatine",
     affiliation: "Galactic Empire",
     gender: "male",
@@ -260,7 +260,7 @@ export const people = [
     birth_year: "82BBY"
   },
   {
-    id: 22,
+    id: "22",
     name: "Boba Fett",
     affiliation: "Bounty Hunters Guild",
     gender: "male",
@@ -273,7 +273,7 @@ export const people = [
     birth_year: "31.5BBY"
   },
   {
-    id: 23,
+    id: "23",
     name: "IG-88",
     affiliation: "Bounty Hunters Guild",
     gender: "none",
@@ -286,7 +286,7 @@ export const people = [
     birth_year: "15BBY"
   },
   {
-    id: 24,
+    id: "24",
     name: "Bossk",
     affiliation: "Bounty Hunters Guild",
     gender: "male",
@@ -299,7 +299,7 @@ export const people = [
     birth_year: "53BBY"
   },
   {
-    id: 25,
+    id: "25",
     name: "Lando Calrissian",
     affiliation: "Rebellion",
     gender: "male",
@@ -312,7 +312,7 @@ export const people = [
     birth_year: "31BBY"
   },
   {
-    id: 26,
+    id: "26",
     name: "Lobot",
     affiliation: "Rebellion",
     gender: "male",
@@ -325,7 +325,7 @@ export const people = [
     birth_year: "37BBY"
   },
   {
-    id: 27,
+    id: "27",
     name: "Ackbar",
     affiliation: "Rebellion",
     gender: "male",
@@ -338,7 +338,7 @@ export const people = [
     birth_year: "41BBY"
   },
   {
-    id: 28,
+    id: "28",
     name: "Mon Mothma",
     affiliation: "Rebellion",
     gender: "female",
@@ -351,7 +351,7 @@ export const people = [
     birth_year: "48BBY"
   },
   {
-    id: 29,
+    id: "29",
     name: "Arvel Crynyd",
     affiliation: "Rebellion",
     gender: "male",
@@ -364,7 +364,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 30,
+    id: "30",
     name: "Wicket Systri Warrick",
     affiliation: "Rebellion",
     gender: "male",
@@ -377,7 +377,7 @@ export const people = [
     birth_year: "8BBY"
   },
   {
-    id: 31,
+    id: "31",
     name: "Nien Nunb",
     affiliation: "Rebellion",
     gender: "male",
@@ -390,7 +390,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 32,
+    id: "32",
     name: "Qui-Gon Jinn",
     affiliation: "Jedi",
     gender: "male",
@@ -403,7 +403,7 @@ export const people = [
     birth_year: "92BBY"
   },
   {
-    id: 33,
+    id: "33",
     name: "Nute Gunray",
     affiliation: "Trade Federation",
     gender: "male",
@@ -416,7 +416,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 34,
+    id: "34",
     name: "Finis Valorum",
     affiliation: "Republic",
     gender: "male",
@@ -429,7 +429,7 @@ export const people = [
     birth_year: "91BBY"
   },
   {
-    id: 35,
+    id: "35",
     name: "Padm\u00e9 Amidala",
     affiliation: "Republic",
     gender: "female",
@@ -442,7 +442,7 @@ export const people = [
     birth_year: "46BBY"
   },
   {
-    id: 36,
+    id: "36",
     name: "Jar Jar Binks",
     affiliation: "Republic",
     gender: "male",
@@ -455,7 +455,7 @@ export const people = [
     birth_year: "52BBY"
   },
   {
-    id: 37,
+    id: "37",
     name: "Roos Tarpals",
     affiliation: "Republic",
     gender: "male",
@@ -468,7 +468,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 38,
+    id: "38",
     name: "Rugor Nass",
     affiliation: "Republic",
     gender: "male",
@@ -481,7 +481,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 39,
+    id: "39",
     name: "Ric Oli\u00e9",
     affiliation: "Republic",
     gender: "male",
@@ -494,7 +494,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 40,
+    id: "40",
     name: "Watto",
     affiliation: "none",
     gender: "male",
@@ -507,7 +507,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 41,
+    id: "41",
     name: "Sebulba",
     affiliation: "none",
     gender: "male",
@@ -520,7 +520,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 42,
+    id: "42",
     name: "Quarsh Panaka",
     affiliation: "Galactic Empire",
     gender: "male",
@@ -533,7 +533,7 @@ export const people = [
     birth_year: "62BBY"
   },
   {
-    id: 43,
+    id: "43",
     name: "Shmi Skywalker",
     affiliation: "none",
     gender: "female",
@@ -546,7 +546,7 @@ export const people = [
     birth_year: "72BBY"
   },
   {
-    id: 44,
+    id: "44",
     name: "Darth Maul",
     affiliation: "none",
     gender: "male",
@@ -559,7 +559,7 @@ export const people = [
     birth_year: "54BBY"
   },
   {
-    id: 45,
+    id: "45",
     name: "Bib Fortuna",
     affiliation: "Hutt Syndicate",
     gender: "male",
@@ -572,7 +572,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 46,
+    id: "46",
     name: "Ayla Secura",
     affiliation: "Jedi",
     gender: "female",
@@ -585,7 +585,7 @@ export const people = [
     birth_year: "48BBY"
   },
   {
-    id: 47,
+    id: "47",
     name: "Ratts Tyerel",
     affiliation: "none",
     gender: "male",
@@ -598,7 +598,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 48,
+    id: "48",
     name: "Dud Bolt",
     affiliation: "none",
     gender: "male",
@@ -611,7 +611,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 49,
+    id: "49",
     name: "Gasgano",
     affiliation: "none",
     gender: "male",
@@ -624,7 +624,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 50,
+    id: "50",
     name: "Ben Quadinaros",
     affiliation: "none",
     gender: "male",
@@ -637,7 +637,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 51,
+    id: "51",
     name: "Mace Windu",
     affiliation: "Jedi",
     gender: "male",
@@ -650,7 +650,7 @@ export const people = [
     birth_year: "72BBY"
   },
   {
-    id: 52,
+    id: "52",
     name: "Ki-Adi-Mundi",
     affiliation: "Jedi",
     gender: "male",
@@ -663,7 +663,7 @@ export const people = [
     birth_year: "92BBY"
   },
   {
-    id: 53,
+    id: "53",
     name: "Kit Fisto",
     affiliation: "Jedi",
     gender: "male",
@@ -676,7 +676,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 54,
+    id: "54",
     name: "Eeth Koth",
     affiliation: "Jedi",
     gender: "male",
@@ -689,7 +689,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 55,
+    id: "55",
     name: "Adi Gallia",
     affiliation: "Jedi",
     gender: "female",
@@ -702,7 +702,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 56,
+    id: "56",
     name: "Saesee Tiin",
     affiliation: "Jedi",
     gender: "male",
@@ -715,7 +715,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 57,
+    id: "57",
     name: "Yarael Poof",
     affiliation: "Jedi",
     gender: "male",
@@ -728,7 +728,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 58,
+    id: "58",
     name: "Plo Koon",
     affiliation: "Jedi",
     gender: "male",
@@ -741,7 +741,7 @@ export const people = [
     birth_year: "22BBY"
   },
   {
-    id: 59,
+    id: "59",
     name: "Mas Amedda",
     affiliation: "Galactic Empire",
     gender: "male",
@@ -754,7 +754,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 60,
+    id: "60",
     name: "Gregar Typho",
     affiliation: "none",
     gender: "male",
@@ -767,7 +767,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 61,
+    id: "61",
     name: "Cord\u00e9",
     affiliation: "Republic",
     gender: "female",
@@ -780,7 +780,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 62,
+    id: "62",
     name: "Cliegg Lars",
     affiliation: "none",
     gender: "male",
@@ -793,7 +793,7 @@ export const people = [
     birth_year: "82BBY"
   },
   {
-    id: 63,
+    id: "63",
     name: "Poggle the Lesser",
     affiliation: "CIS",
     gender: "male",
@@ -806,7 +806,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 64,
+    id: "64",
     name: "Luminara Unduli",
     affiliation: "Jedi",
     gender: "female",
@@ -819,7 +819,7 @@ export const people = [
     birth_year: "58BBY"
   },
   {
-    id: 65,
+    id: "65",
     name: "Barriss Offee",
     affiliation: "Jedi",
     gender: "female",
@@ -832,7 +832,7 @@ export const people = [
     birth_year: "40BBY"
   },
   {
-    id: 66,
+    id: "66",
     name: "Dorm\u00e9",
     affiliation: "Republic",
     gender: "female",
@@ -845,7 +845,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 67,
+    id: "67",
     name: "Dooku",
     affiliation: "CIS",
     gender: "male",
@@ -858,7 +858,7 @@ export const people = [
     birth_year: "102BBY"
   },
   {
-    id: 68,
+    id: "68",
     name: "Bail Prestor Organa",
     affiliation: "Rebellion",
     gender: "male",
@@ -871,7 +871,7 @@ export const people = [
     birth_year: "67BBY"
   },
   {
-    id: 69,
+    id: "69",
     name: "Jango Fett",
     affiliation: "Bounty Hunters Guild",
     gender: "male",
@@ -884,7 +884,7 @@ export const people = [
     birth_year: "66BBY"
   },
   {
-    id: 70,
+    id: "70",
     name: "Zam Wesell",
     affiliation: "Bounty Hunters Guild",
     gender: "female",
@@ -897,7 +897,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 71,
+    id: "71",
     name: "Dexter Jettster",
     affiliation: "none",
     gender: "male",
@@ -910,7 +910,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 72,
+    id: "72",
     name: "Lama Su",
     affiliation: "none",
     gender: "male",
@@ -923,7 +923,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 73,
+    id: "73",
     name: "Taun We",
     affiliation: "none",
     gender: "female",
@@ -936,7 +936,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 74,
+    id: "74",
     name: "Jocasta Nu",
     affiliation: "Jedi",
     gender: "female",
@@ -949,7 +949,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 75,
+    id: "75",
     name: "R4-P17",
     affiliation: "Jedi",
     gender: "female",
@@ -962,7 +962,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 76,
+    id: "76",
     name: "Wat Tambor",
     affiliation: "CIS",
     gender: "male",
@@ -975,7 +975,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 77,
+    id: "77",
     name: "San Hill",
     affiliation: "CIS",
     gender: "male",
@@ -988,7 +988,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 78,
+    id: "78",
     name: "Shaak Ti",
     affiliation: "Jedi",
     gender: "female",
@@ -1001,7 +1001,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 79,
+    id: "79",
     name: "Grievous",
     affiliation: "CIS",
     gender: "male",
@@ -1014,7 +1014,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 80,
+    id: "80",
     name: "Tarfful",
     affiliation: "Republic",
     gender: "male",
@@ -1027,7 +1027,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 81,
+    id: "81",
     name: "Raymus Antilles",
     affiliation: "Rebellion",
     gender: "male",
@@ -1040,7 +1040,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 82,
+    id: "82",
     name: "Sly Moore",
     affiliation: "Galactic Empire",
     gender: "female",
@@ -1053,7 +1053,7 @@ export const people = [
     birth_year: "unknown"
   },
   {
-    id: 83,
+    id: "83",
     name: "Tion Medon",
     affiliation: "none",
     gender: "male",
